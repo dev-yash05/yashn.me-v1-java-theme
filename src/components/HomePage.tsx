@@ -132,21 +132,21 @@ export function HomePage({ onNavigate }: HomePageProps) {
               {/* Social Links */}
               <div className="flex items-center gap-4">
                 <a 
-                  href="#" 
+                  href="https://github.com/dev-yash05" 
                   className="group p-2.5 bg-slate-900/30 hover:bg-slate-800/50 border border-slate-800 hover:border-slate-700 rounded-lg transition-all duration-300"
                   aria-label="GitHub"
                 >
                   <Github className="w-5 h-5 text-slate-400 group-hover:text-white" />
                 </a>
                 <a 
-                  href="#" 
+                  href="https://www.linkedin.com/in/yash-namdeo/" 
                   className="group p-2.5 bg-slate-900/30 hover:bg-slate-800/50 border border-slate-800 hover:border-slate-700 rounded-lg transition-all duration-300"
                   aria-label="LinkedIn"
                 >
                   <Linkedin className="w-5 h-5 text-slate-400 group-hover:text-[#0077b5]" />
                 </a>
                 <a 
-                  href="#" 
+                  href="mailto:yashnamdeo754@gmail.com" 
                   className="group p-2.5 bg-slate-900/30 hover:bg-slate-800/50 border border-slate-800 hover:border-slate-700 rounded-lg transition-all duration-300"
                   aria-label="Email"
                 >
