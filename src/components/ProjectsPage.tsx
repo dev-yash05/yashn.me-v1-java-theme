@@ -7,7 +7,7 @@ export function ProjectsPage() {
     title: "Forever – Full-Stack E-Commerce Platform",
     description:
       "A production-grade e-commerce application built using the MERN stack, featuring user authentication, product catalog, cart & checkout flow, order management, and admin controls.",
-    tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "Razorpay"],
+    tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
     github: "https://github.com/dev-yash05/E-Commerce-Forever-frontend",
     live: "https://e-commerce-forever-frontend-coral.vercel.app/",
     status: "completed",
@@ -18,10 +18,11 @@ export function ProjectsPage() {
     description:
       "An AI-powered SaaS application using Google Gemini API that provides custom AI tools including article generation, blog title creation, resume review, image generation, and background removal.",
     tech: [
-      "Next.js",
+      "React.js",
       "Node.js",
       "Gemini API",
       "MongoDB",
+      "Clerk",
       "Cloudinary",
       "Tailwind CSS",
     ],

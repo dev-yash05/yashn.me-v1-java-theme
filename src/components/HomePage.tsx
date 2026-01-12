@@ -124,9 +124,12 @@ export function HomePage({ onNavigate }: HomePageProps) {
                   <span>View Projects</span>
                   <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </button>
-                <button className="px-6 py-3 bg-slate-900/50 hover:bg-slate-800/50 border border-slate-700 hover:border-slate-600 rounded-lg transition-all duration-300 backdrop-blur-sm">
-                  Download Resume
-                </button>
+                <a href="https://drive.google.com/file/d/1mqNqxK0cTOcf-FG_xFILvY3nVASyIgXy/view?usp=sharing">
+                  <button className="px-6 py-3 bg-slate-900/50 hover:bg-slate-800/50 border border-slate-700 hover:border-slate-600 rounded-lg transition-all duration-300 backdrop-blur-sm">
+                    Download Resume
+                  </button>
+                </a>
+                
               </div>
 
               {/* Social Links */}
@@ -283,7 +286,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
         </section>
 
         {/* Experience Section */}
-        <section className="space-y-6">
+        {/* <section className="space-y-6">
           <div className="flex items-center gap-3">
             <Briefcase className="w-6 h-6 text-[#5382a1]" />
             <h2 className="text-2xl">
@@ -348,7 +351,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
       </div>
     </>
