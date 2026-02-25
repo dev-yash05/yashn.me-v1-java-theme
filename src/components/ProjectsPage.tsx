@@ -2,8 +2,39 @@ import { ExternalLink, Github, Code2 } from 'lucide-react';
 
 export function ProjectsPage() {
   const projects = [
-  {
+    {
     id: 1,
+    title: "Lanos Beta Platform — Integrated EdTech & IT Solutions",
+    description:
+      "Developed a high-performance, multi-tenant web application using Next.js 16 and React. Implemented high-fidelity UI components and fluid animations using Tailwind CSS and GSAP. Optimized site SEO and performance through Server-Side Rendering (SSR), achieving superior Core Web Vitals.",
+    tech: [
+      "Next.js 16",
+      "React",
+      "Tailwind CSS",
+      "GSAP",
+      "SSR",
+    ],
+    github: "#",
+    live: "https://lanos-beta.vercel.app/",
+    status: "completed",
+  },
+    {
+    id: 2,
+    title: "Samriddhi Travels Indore — Travel Booking Portal",
+    description:
+      "Digitized local agency operations, managing 30+ itineraries via a responsive Next.js frontend. Boosted page speeds by 40% and lead capture by 25% through optimized SEO and custom forms.",
+    tech: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "SEO",
+    ],
+    github: "#",
+    live: "https://samriddhitravelsindore.vercel.app/",
+    status: "completed",
+  },
+  {
+    id: 3,
     title: "Forever – Full-Stack E-Commerce Platform",
     description:
       "A production-grade e-commerce application built using the MERN stack, featuring user authentication, product catalog, cart & checkout flow, order management, and admin controls.",
@@ -13,7 +44,7 @@ export function ProjectsPage() {
     status: "completed",
   },
   {
-    id: 2,
+    id: 4,
     title: "Quick-AI – AI SaaS Platform",
     description:
       "An AI-powered SaaS application using Google Gemini API that provides custom AI tools including article generation, blog title creation, resume review, image generation, and background removal.",
@@ -29,40 +60,6 @@ export function ProjectsPage() {
     github: "https://github.com/dev-yash05/QuickAI",
     live: "https://quick-ai-zeta-hazel.vercel.app/",
     status: "completed",
-  },
-  {
-    id: 3,
-    title: "TeamFlow – Project & Task Management SaaS",
-    description:
-      "A multi-tenant SaaS application for managing teams, projects, and tasks with role-based access control, JWT & OAuth authentication, and scalable backend architecture.",
-    tech: [
-      "Next.js",
-      "Spring Boot",
-      "PostgreSQL",
-      "Spring Security",
-      "JWT",
-      "OAuth2",
-    ],
-    github: "#",
-    live: "#",
-    status: "upcoming",
-  },
-  {
-    id: 4,
-    title: "PulseChat – Real-Time Team Messaging App",
-    description:
-      "A real-time chat application similar to Slack, supporting private and group messaging, online/offline presence, typing indicators, and message persistence using WebSockets.",
-    tech: [
-      "React",
-      "Node.js",
-      "Socket.IO",
-      "MongoDB",
-      "JWT",
-      "Redis",
-    ],
-    github: "#",
-    live: "#",
-    status: "upcoming",
   },
   {
     id: 5,
